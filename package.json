@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "prettier": "2.4.1",
+    "prettier-plugin-java": "^1.6.0"
+  },
+  "prettier": {
+      "printWidth": 120,
+      "tabWidth": 4
+  },
+  "scripts": {
+    "formatting:check": "prettier --check **/*.java",
+    "formatting:write": "prettier --write **/*.java"
+  }
+}
